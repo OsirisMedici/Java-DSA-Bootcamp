@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Doller {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enetr your money in rupee: ");
+        int rup = in.nextInt();
+        float usd = (rup/64);
+        System.out.println("I converted your money in US Doller by magic: hehe");
+        System.out.println(usd+"$");
+    }
+}
