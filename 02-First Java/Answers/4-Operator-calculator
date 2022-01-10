@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class calculator {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your first number: ");
+        double a = sc.nextDouble();
+        System.out.println("Enter your Second number: ");
+        double b = sc.nextDouble();
+        System.out.println("Enter a function you want to try (+,-,*,/,%) ");
+        String op = sc.next();
+        double results = 0;
+
+        if (op.equals("+")) {
+            results = a + b;
+        }
+        else if (op.equals("-")) {
+            results = a - b;
+        }
+        else if (op.equals("*")){
+            results = a * b;
+        }
+        else if (op.equals("/")) {
+            results = a / b;
+        }
+        
+        System.out.println(results);
+
+
+    }
+}
