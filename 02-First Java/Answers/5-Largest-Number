@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class largest2 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("You have to enter First number: ");
+        int a = in.nextInt();
+        System.out.println("You have to enter Second number: ");
+        int b = in.nextInt();
+
+        if (a>b){
+            System.out.println("Number one is Greater");
+        }
+        else {
+            System.out.println("Number 2 is greater");
+        }
+    }
+}
