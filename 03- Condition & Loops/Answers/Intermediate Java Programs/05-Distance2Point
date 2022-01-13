@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Distance2Points {
+    public static void main(String[] args) {
+      Scanner in = new Scanner(System.in);
+      double distance = 0;
+      System.out.println("Enter Dimensions of x1 and y1 respectively: ");  
+      float x1 = in.nextFloat();
+      float y1 = in.nextFloat();
+      System.out.println("Enter Dimensions of x2 and y2 respectively: ");  
+      float x2 = in.nextFloat();
+      float y2 = in.nextFloat();
+      distance = Math.sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1));
+      System.out.println("distnace between two points is " + distance);
+
+    }
+}
