@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Discount {
+    public static void main(String[] args) {
+        Scanner in = new Scanner (System.in);
+        System.out.println("Enter the amount of your product buddy: ");
+        double price = in.nextDouble();
+        double discount = 0;
+        if (price < 10000){
+            discount = (price*0.20);     
+        }
+        else if (price < 5000) {
+            discount = (price*0.10);
+        }
+        else {
+            discount = (price*0.40);
+        }
+        double total = ( price - discount);
+        System.out.println("Your total Bill is : " + total);
+        System.out.println("And your Discount is " + discount);
+        
+        
+    }
+
+    
+}
