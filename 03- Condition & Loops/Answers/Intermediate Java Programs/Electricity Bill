@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Electricity_Bill {
+    public static void main(String[] args) {
+        Scanner in = new Scanner (System.in);
+        System.out.println("Enter the valur of kwh: ");
+        double kwh = in.nextDouble();
+        System.out.println("Enter the cost : ");
+        double cst = in.nextDouble();
+        System.out.println("Enter Number of days: ");
+        int das = in.nextInt();
+        double bill = 0;
+
+        if (kwh>0 && cst>0 && das >0 ){
+        
+            bill = ((kwh*cst)/das);
+            System.out.println("Your Bill is " + bill);
+        }
+        else {
+            System.out.println("invalid value");
+        }
+         
+
+    }
+}
