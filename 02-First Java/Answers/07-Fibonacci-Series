@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class fibbonaci {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter what position you want in fibbo: ");
+        int i = in.nextInt();
+        int a = 0;
+        int b = 1;
+        int count = 2; // 0, 1, 1, 2, 3, 5,8, 13.....v
+        while (count <= i) { 
+            int temp = b;
+            b = a + b;
+            a = temp;
+            count++;
+        }
+         System.out.println(b);
+    }
+}
