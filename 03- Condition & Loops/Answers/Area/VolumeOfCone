@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class VolumeOfCone{
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the Values : ");
+
+        double pi = 3.14;
+        int r = in.nextInt();
+        int h = in.nextInt()/3;
+        double volume = pi*r*h;
+        System.out.println("Volume of Cone is :" + volume);
+
+         
+    }
+}
