@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class VolumeOfPyramid {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the values :");
+        int length = in.nextInt();
+        int breath = in.nextInt();
+        int height = in.nextInt();
+        int volume = (length*breath*height)/3;
+        System.out.println("Volume of Pyramid : " + volume); 
+        in.close();
+        
+    }
+    
+}
