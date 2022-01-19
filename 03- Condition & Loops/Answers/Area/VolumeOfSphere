@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class VolumeOfSphere {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the Values :");
+        double pi = 3.14;
+        double r = in.nextDouble();
+        double r_ = Math.pow(r, 3);
+        double volume = pi*r_;
+        System.out.println("Volume of Sphere : " + 4/3*(volume ));
+     in.close();   
+    }
+}
