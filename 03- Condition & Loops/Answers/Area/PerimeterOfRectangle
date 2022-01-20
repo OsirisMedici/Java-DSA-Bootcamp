@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class PerimeterOfRectangle {
+    
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the values :");
+        int l = in.nextInt();
+        int w = in.nextInt();
+        int S = 2*(l+w);
+        System.out.println("Perimeter of Rectangle is :" + (S) );
+        
+    }
+}
