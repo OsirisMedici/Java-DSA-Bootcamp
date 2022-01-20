@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class PerimeterOfCircle {
+
+    public static void main(String[] args) {
+        
+        Scanner in = new Scanner(System.in);
+        
+        double pi = 3.14;
+        
+        System.out.println("Enter the value of r");
+        double r = in.nextDouble();
+
+        double perimeter = 2*pi*r; //Formula of perimeter of circle
+        
+        System.out.println("Perimeter of Circle :" + perimeter);
+        in.close();
+    }
+    
+}
