@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class PerimeterOfEquilateralTriangle {
+
+    public static void main(String[] args) {
+        System.out.println("Enter the values");
+        Scanner in = new Scanner(System.in);
+        int length = in.nextInt();
+        int a = 3*length;
+        System.out.println("Perimeter of equilateral triangle :" + a);
+        in.close();
+
+        
+    }
+    
+}
